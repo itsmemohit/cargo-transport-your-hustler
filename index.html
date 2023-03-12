@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/logo.svg">
+
+  <title>Frontend Mentor | Huddle landing page with single introductory section</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.1/css/font-awesome.css"
+    integrity="sha512-bf5lgyUrZOfPh94XyXFK4+2062lAMQFAfxUTVkOAHZ7R3XQ0tY+TUSkbqt8sjFsq0hVMKvGT/1P39c+vKwesTQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+    integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="main.js"></script>
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="wrapper">
+      <div class="header">
+        <img src="images/logo.svg">
+
+        <div class="cta-btn">
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Careers</a>
+          <a href="#">Contact</a>
+        </div>
+        <div class="application-cta">
+          <a href="#"><span>Application</span></a>
+        </div>
+      </div>
+      <section class="hero">
+        <div class="left-section">
+          <h1>Cargo <br />Transport</h1>
+          <p>Transporting the essentials, from earth to earth</p>
+          <div class="left-cta-btn">
+            <a href="#"><span>View Services</span></a>
+            <a href="#"><span>Get In Touch</span></a>
+          </div>
+          <div class="social-links">
+            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="about-us">
+        <div class="left-side">
+          <div class="project-completed" data-count="200">
+            <h1>0</h1>
+            <p>Projects Completed</p>
+          </div>
+          <div class="trucks">
+            <h1>224</h1>
+            <p>Trucks</p>
+          </div>
+        </div>
+        <div class="right-side">
+          <h4>About Us</h4>
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+            et dolore magna aliquyam erat, sed diam</p><br /><br />
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod </p>
+          <div class="learn-more-cta">
+            <a href="#"><span>Learn More</span></a>
+          </div>
+        </div>
+
+      </section>
+      <section class="solution">
+        <div class="background"></div>
+        <div class="solutions-info">
+          <h1>Solutions Tailored to Your Needs</h1>
+          <p class="line">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+            invidunt ut labore
+            et dolore </p>
+        </div>
+        <div class="carousel-btn">
+          <button class="slide-button prev"><span>&lt;</span></button>
+          <button class="slide-button next"><span>&#62;</span></button>
+        </div>
+      </section>
+      <div class="carousel slider">
+        <div class="carousel-container">
+          <div class="carousel-slide">
+            <img src="images/1.svg" alt="Image 1">
+            <img src="images/2.svg" alt="Image 2">
+            <img src="images/3.svg" alt="Image 3">
+            <img src="images/1.svg" alt="Image 4">
+
+            <img src="images/2.svg" alt="Image 2">
+            <img src="images/1.svg" alt="Image 1">
+          </div>
+        </div>
+      </div>
+      <section class="testimonials">
+        <div class="left-heading">
+          <h1>testimonials</h1>
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidun</p>
+        </div>
+        <div class="right-testimonial">
+          <img src="images/colon.svg" alt="colon">
+          <p>The Lorem Ipsum Company has been an integral part of our content marketing success. We have seen a notable
+            increase in organic leads since we began using their </p>
+          <h4>Roland Weedon</h4>
+          <span class="designation">CEO & Founder, Essex Mortgage</span>
+          <div class="buttons">
+            <a href="#"><span>View All</span></a>
+            <div class="btn">
+              <button class="slide-button prev"><span>&lt;</span></button>
+              <button class="slide-button next"><span>&#62;</span></button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="story">
+        <div class="left-story-info">
+          <h1>Our Story</h1>
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut </p>
+
+          <div class="play-button">
+            <button id="button"><i class="fa fa-play" aria-hidden="true"></i></button>
+            <span>Play Video</span>
+          </div>
+        </div>
+
+        <div id="lightbox">
+          <i id="close-btn" class="fa fa-times"></i>
+          <div id="video-wrapper">
+            <iframe id="video" width="960" height="540" src="https://www.youtube.com/embed/Rs6prqvv3tg" frameborder="0"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+      </section>
+      <section class="follow-us">
+        <div class="social-info-follow">
+          <img src="images/instagram.svg" alt="ig-logo">
+          <h1>Follow Us on Instagram</h1>
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidun</p>
+        </div>
+        <div class="follow slider">
+          <div class="carousel-container">
+            <div class="carousel-slide">
+              <img src="images/1.svg" alt="Image 1">
+              <img src="images/2.svg" alt="Image 2">
+              <img src="images/3.svg" alt="Image 3">
+              <img src="images/1.svg" alt="Image 4">
+
+              <img src="images/2.svg" alt="Image 2">
+              <img src="images/1.svg" alt="Image 1">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact-us">
+        <div class="left-join-team">
+          <h1>Join Our Team</h1>
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidun</p>
+          <div class="application-cta">
+            <a class="application" href="#"><span>Application</span></a>
+          </div>
+        </div>
+        <div class="right-contact-us">
+          <h1>Contact Us</h1>
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidun</p>
+          <div class="application-cta">
+            <a class="application" href="#"><span>Application</span></a>
+          </div>
+        </div>
+        <div class="triangle">
+          <img src="images/triangle.svg" alt="triangle">
+        </div>
+      </section>
+      <section class="footer">
+        <div class="social-icon">
+          <h3>Transporting the<span> essentials</span> </h3>
+          <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i>
+          </a>
+          <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i>
+          </a>
+        </div>
+        <div class="footer-links">
+          <div class="links-1">
+            <ol>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Contact</a></li>
+            </ol>
+          </div>
+          <div class="links-2">
+            <ol>
+              <li><a href="#">Project</a></li>
+              <li><a href="#">Consultation</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Fleet</a></li>
+            </ol>
+          </div>
+          <div class="links-3">
+            <ol>
+              <li><a href="#">(123) 456-7890</a></li>
+              <li><a href="#">office@okdtransport.com</a></li>
+              <li><a class="address" href="#">2416 E Michigan Ave,<br /> Ypsilanti, MI 48198, United<br /> States</a>
+              </li>
+            </ol>
+          </div>
+        </div>
+        <div class="footer-line"></div>
+        <div class="bottom-info">
+
+        </div>
+
+      </section>
+      <div class="copyright">
+        <p>Copy@2023 OKD Transport</p>
+        <p>Designed By Yourhustler</p>
+      </div>
+    </div>
+  </div>
+
+
+  <script>
+
+
+
+  </script>
+
+</body>
+
+</html>
