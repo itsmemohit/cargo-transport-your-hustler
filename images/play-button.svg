@@ -1,9 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="85" height="85" viewBox="0 0 85 85">
-  <g id="Group_123" data-name="Group 123" transform="translate(-85 -4609)">
-    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(85 4609)" fill="#fff" stroke="#fff" stroke-width="2">
-      <circle cx="42.5" cy="42.5" r="42.5" stroke="none"/>
-      <circle cx="42.5" cy="42.5" r="41.5" fill="none"/>
-    </g>
-    <path id="Polygon_8" data-name="Polygon 8" d="M14,0,28,24H0Z" transform="translate(144 4638) rotate(90)" fill="#fff"/>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="85" height="85" viewBox="0 0 85 85"><g id="Group_123" data-name="Group 123" transform="translate(-85 -4609)"><g id="Ellipse_1" fill="#fff" stroke="#fff" stroke-width="2" data-name="Ellipse 1" transform="translate(85 4609)"><circle cx="42.5" cy="42.5" r="42.5" stroke="none"/><circle cx="42.5" cy="42.5" r="41.5" fill="none"/></g><path id="Polygon_8" fill="#fff" d="M14,0,28,24H0Z" data-name="Polygon 8" transform="translate(144 4638) rotate(90)"/></g></svg>
